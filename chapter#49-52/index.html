@@ -1,0 +1,88 @@
+<idoctype>
+    <html>
+        <head>
+        <title>Webform</title>
+        
+        <style>
+                #div1 {
+        background: #ffffff;
+        width : 400px;
+        height: 350px;
+        float: left;
+        margin: 10px;
+        opacity: 0.4;
+        }
+                #form1 {
+        
+        
+        opacity: 1.0;}
+        #div2 {
+        background-color:darkslategray;
+        width : 100px;
+        height: 200px;
+        float: right;
+        margin: 10px;
+        }
+        #div3 {
+        background : grey ;
+        width : 100px;
+        height: 200px;
+        float: right;
+        margin: 10px;
+        }
+        #div4 {
+        background : blue ;
+        width : 100px;
+        height: 200px;
+        float: right;
+        margin: 10px;
+        }
+        #main_div {
+        background-image:url(bg.png);
+        width: auto;
+        height:auto;
+        padding : 50px;
+        
+        
+        }
+            </style>
+        </head>
+        
+        
+        <body >
+       
+            
+            <div id="main_div">
+        <div id="div1">
+                
+        <div id="form1">
+            <form method="get">
+            <h2 align="center">Admission Form</h2>
+            <p >First Name :<input type="text"  name="firstname" maxlength="50" value="Enter name here" /></p>
+           
+        <p>Last Name : <input type="text" name="lastname" maxlength="50" value="Enter here"/></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Male <input type="radio" name="sex" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Female <input type="radio" name="sex" /></p>
+         Country <select name="country" id="country"> 
+                <option value="India">Pakistan</option> 
+                <option value="Sri Lanka">Sri Lanka</option> 
+                <option value="Australia">Australia</option> 
+            </select>
+        Percentage:<input type="text" name="per" size="2" maxlength="5"/>
+        <p>Mechanical<input type="checkbox" name="field"/>
+        
+        Computer<input type="checkbox" name="field"/>
+            Electronics<input type="checkbox" name="field"/></p>
+            <p align="center">
+                <INPUT TYPE="SUBMIT" VALUE="Submit" onclick="submit()"> <INPUT TYPE="RESET"></p>
+            </form>
+            </div>
+                                        </div>
+        <div id="div2">Image</div>
+        <div id="div3">Image</div>
+        <div id="div4">Image</div>
+        <div style="clear:both;"> </div>
+        </div>
+            
+    
+        </body>
+        </html>

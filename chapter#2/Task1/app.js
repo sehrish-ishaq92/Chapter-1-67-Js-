@@ -1,0 +1,2 @@
+var username;
+alert(username)
